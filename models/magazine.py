@@ -5,7 +5,7 @@ from models.author import Author
 class Magazine:
     def __init__(self, id=None, name=None, category=""):
         self._id = id
-        self.name = name  # Use setter for validation
+        self.name = name
         self.category = category if category else "Uncategorized"  # Default value for category
 
     @property

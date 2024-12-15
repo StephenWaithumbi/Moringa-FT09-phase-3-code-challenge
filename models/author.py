@@ -1,4 +1,5 @@
 from database.connection import get_db_connection
+from models.article import Article
 
 class Author:
     def __init__(self, id=None, name=None):
